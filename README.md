@@ -83,6 +83,17 @@ Vulnerability analysis
 
 Penetration testing
 
+## Portfolio Projects
+
+### Network Scanning Lab
+
+A practical lab using **Nmap** to identify open ports and services on a target machine in a virtual lab.
+
+- 🛠️ Tools used: Kali Linux, Ubuntu, Nmap, VirtualBox
+- 🔍 Skills: Port scanning, service enumeration, OS detection
+
+🔗 [View Lab →](./network-scanning-lab)
+
 Disclaimer
 
 All activities were performed in a controlled virtual lab environment for educational purposes only.
