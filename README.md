@@ -1,2 +1,88 @@
-# cybersecurity-portfolio
-My hands-on cybersecurity labs and projects
+# Willian Spohr – Cybersecurity Portfolio
+
+## Overview
+
+This repository contains my hands-on cybersecurity labs performed in a controlled virtual lab environment using Kali Linux and Ubuntu.
+
+The purpose of this portfolio is to develop practical skills in penetration testing, network scanning, and system enumeration.
+
+---
+
+## Lab Environment
+
+Attacker Machine:
+- Kali Linux
+- IP: 192.168.56.104
+
+Target Machine:
+- Ubuntu Linux
+- IP: 192.168.56.103
+
+Network:
+- VirtualBox Host-only Adapter
+- Network range: 192.168.56.0/24
+
+---
+
+## Tools Used
+
+- Nmap
+- Kali Linux
+- Ubuntu Linux
+- VirtualBox
+- Linux command line
+
+---
+
+## Labs Completed
+
+### Network Scanning Lab
+
+Objectives:
+- Host discovery
+- Port scanning
+- Service detection
+- OS detection
+
+Command used:
+
+sudo nmap -sS -sV -O -p- 192.168.56.103
+
+Result:
+
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu
+
+Skills demonstrated:
+
+Network scanning
+
+Service enumeration
+
+Linux networking
+
+Lab environment configuration
+
+Skills Developed
+
+TCP/IP networking fundamentals
+
+Port scanning methodology
+
+Linux system usage
+
+Cybersecurity lab setup
+
+Current Learning Goals
+
+Service enumeration
+
+Linux enumeration
+
+Vulnerability analysis
+
+Penetration testing
+
+Disclaimer
+
+All activities were performed in a controlled virtual lab environment for educational purposes only.
